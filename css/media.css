@@ -110,11 +110,18 @@ and (max-width : 768px) {
 
 @media only screen
 and (max-width : 567px) {
+
+  html, body{
+    overflow-x: hidden; 
+  }
+
   .main-image{
     width: 1920px;
     position: relative;
     left: -360px;
   }
+
+
   .hero-content h1 span{
     display: block;
   }
