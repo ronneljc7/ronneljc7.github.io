@@ -245,7 +245,7 @@ and (max-width : 500px) {
 @media only screen
 and (max-width : 400px) {
   .main-image {
-    left: -450px;
+    left: -700px;
   }
   .hero-content h1{
     font-size: 30px;
