@@ -112,13 +112,13 @@ and (max-width : 768px) {
 and (max-width : 567px) {
 
   html, body{
-    overflow-x: hidden; 
+    overflow-x: hidden;
   }
 
   .main-image{
     width: 1920px;
     position: relative;
-    left: -360px;
+    left: -605px;
   }
 
 
