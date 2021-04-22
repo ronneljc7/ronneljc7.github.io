@@ -1,312 +1,117 @@
-/* Large Tablet Devices */
-@media only screen
-and (max-width : 1400px) {
-  .tp-card-content h3{
-    min-height: 70px;
-  }
+
+@media only screen and (max-width : 1400px) {
+  .tp-card-content h3{min-height: 70px;}
+}
+
+@media only screen and (max-width : 1300px) {
 
 }
 
-@media only screen
-and (max-width : 1300px) {
+@media only screen and (max-width : 1200px) {
+  .tp-card-content a{font-size:15px;}
+  .top-picks-cards section p{min-height: 90px;}
+}
 
+@media only screen and (max-width : 1100px) {
 
 }
 
-
-@media only screen
-and (max-width : 1200px) {
-  .tp-card-content a{
-    font-size:15px;
-  }
-  .top-picks-cards section p{
-    min-height: 90px;
-  }
+@media only screen and (max-width : 1024px) {
+  .hero-content h1 {font-size: 50px}
+  .hero-content p {font-size: 20px;}
+  .top-picks-cards{flex-wrap: wrap; align-items: center;}
+  .top-picks-cards section{width: 25%; margin-bottom: 30px;}
 }
 
-@media only screen
-and (max-width : 1100px) {
-
+@media only screen and (max-width : 1000px) {
+  .top-picks-cards section{ width:27%;}
+  .booking{padding: 80px 75px;}
+  .cat-link a span{font-size: 35px;}
 }
 
-@media only screen
-and (max-width : 1024px) {
-  .hero-content h1 {
-    font-size: 50px
-  }
-  .hero-content p {
-    font-size: 20px;
-  }
-  .top-picks-cards{
-    flex-wrap: wrap;
-    align-items: center;
-  }
-    .top-picks-cards section{
-      width: 25%;
-    margin-bottom: 30px;
-    }
-}
-
-@media only screen
-and (max-width : 1000px) {
-  .top-picks-cards section{
-    width:27%;
-  }
-  .booking{
-    padding: 80px 75px;
-  }
-  .cat-link a span{
-    font-size: 35px;
-  }
-}
-
-@media only screen
-and (max-width : 768px) {
-  .hero-content {
-    bottom: 70px;
-  }
-  .hero-content h1 {
-    font-size: 40px;
-  }
-
-  .top-picks-content h3{
-    font-size: 40px;
-  }
-  .top-picks-content p{
-    font-size: 20px;
-  }
-  .top-picks-cards section{
-    width:30%;
-  }
-  .top-picks-cards section a{
-    font-size:13px;
-  }
-  .booking{
-    padding: 80px 30px;
-  }
- .booking-icons section{
-
-   padding: 0 20px;
-
- }
- .cat-link a span {
-   line-height: 100%;
-   font-size:30px;
- }
+@media only screen and (max-width : 768px) {
+  .hero-content {bottom: 70px;}
+  .hero-content h1 {font-size: 40px;}
+  .top-picks-content h3{font-size: 40px;}
+  .top-picks-content p{font-size: 20px;}
+  .top-picks-cards section{width:30%;}
+  .top-picks-cards section a{font-size:13px;}
+  .booking{padding: 80px 30px;}
+  .booking-icons section{padding: 0 20px;}
+  .cat-link a span {line-height: 100%; font-size:30px;}
 }
 
 @media only screen and (max-width : 610px){
-  .top-picks-cards section a{
-    font-size: 10px;
-
-  }
-  .top-picks-cards section h3{
-    font-size: 17px;
-  }
-  .booking-icons section{
-    padding: 0 15px;
-  }
+  .top-picks-cards section a{font-size: 10px;}
+  .top-picks-cards section h3{font-size: 17px;}
+  .booking-icons section{padding: 0 15px;}
 }
 
-@media only screen
-and (max-width : 567px) {
-
-  html, body{
-    overflow-x: hidden;
-  }
-
-  .main-image{
-    width: 1920px;
-    position: relative;
-    left: -605px;
-  }
-
-
-  .hero-content h1 span{
-    display: block;
-  }
-  .hero-content a{
-    width:auto;
-    padding: 10px 20px;
-  }
-  .top-picks-content h3{
-    font-size:30px;
-
-  }
-  .top-picks-content p{
-    font-size:15px;
-  }
-
-  .top-picks-btn{
-    display: none;
-  }
-  .tp-card-content h3{
-      min-height: 50px;
-  }
-  .top-picks-cards p{
-      min-height: 50px;
-  }
-  .tp-card-link{
-    display: block;
-    height: 600px;
-padding: 0;
-border: 1px solid orange;
-position: relative;
-  }
-
-  .tp-card-link a{
-    display: block;
-      width: 100%;
-      height: 100%;
-      background: none!important;
-      color: #fff!important;
-      position: relative;
-  }
-  .tp-card-link span{
-    position: absolute;
-top: 50%;
-right: 0;
-bottom: 0;
-left: 0;
-  }
-  .top-picks-cards section{
-    width: 46%;
-    margin: 0 5px 30px !important;
-  }
-  .tp-card-link a span small{
-    display: block;
-  }
-  .booking-icons {
-      display: block;
-  }
-  .booking-icons section{
-    width: 400px;
-    text-align: left;
-    margin: 0 auto;
-  }
-  .booking-icons section img{
-    width: 140px;
-    vertical-align: middle;
-    display: inline-block;
-    margin-bottom: 20px;
-  }
-  .booking-content {
-    width: 50%;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 29px;
-  }
-  .cat-link a span{
-    font-size: 20px;
-  }
-  .cat-link a {
-      display: block;
-      height: 100%;
-  }
-  .cat-link{
-    height: 150px;
-  }
-}
-@media only screen
-and (max-width : 500px) {
-  .hero-content p{
-    font-size:15px;
-  }
-  .hero-content a{
-    font-size: 15px;
-  }
-  .tp-card-link{
-    height: 570px;
-  }
-  .tp-card-content a{
-    font-size:10px;
-  }
-  .top-picks-cards section p{
-    font-size: 15px;
-  }
-    .top-picks-cards section h3{
-      font-size:15px;
-    }
-  .tp-card-link{
-    height:561px;
-  }
-  .booking-btn a{
-    font-size:15px;
-  }
-  .booking-content{
-    margin-left: 25px;
-  }
-  .booking-icons section img{
-    width: 125px;
-  }
+@media only screen and (max-width : 567px) {
+  html, body{overflow-x: hidden;}
+  .main-image{width: 1920px; position: relative; left: -605px;}
+  .hero-content h1 span{display: block;}
+  .hero-content a{width:auto; padding: 10px 20px;}
+  .top-picks-content h3{font-size:30px;}
+  .top-picks-content p{font-size:15px;}
+  .top-picks-btn{display: none;}
+  .tp-card-content h3{min-height: 50px;}
+  .top-picks-cards p{min-height: 50px;}
+  .tp-card-link{display: block; height: 600px; padding: 0; border: 1px solid orange; position: relative;}
+  .tp-card-link a{display: block; width: 100%; height: 100%; background: none!important; color: #fff!important; position: relative;}
+  .tp-card-link span{position: absolute; top: 50%; right: 0; bottom: 0; left: 0;}
+  .top-picks-cards section{width: 46%; margin: 0 5px 30px !important;}
+  .tp-card-link a span small{display: block;}
+  .booking-icons {display: block;}
+  .booking-icons section{width: 400px; text-align: left; margin: 0 auto;}
+  .booking-icons section img{width: 140px; vertical-align: middle; display: inline-block; margin-bottom: 20px;}
+  .booking-content {width: 50%; display: inline-block; vertical-align: middle; margin-left: 29px;}
+  .cat-link a span{font-size: 20px;}
+  .cat-link a {display: block; height: 100%;}
+  .cat-link{height: 150px;}
 }
 
-
-@media only screen
-and (max-width : 400px) {
-  .main-image {
-    left: -700px;
-  }
-  .hero-content h1{
-    font-size: 30px;
-  }
-  .tp-card-link{
-    height: 541px;
-  }
-  .top-picks-cards section p{
-    min-height: 100px;
-  }
-  .tp-card-content h3{
-    min-height: 75px;
-  }
-  .top-picks-cards section a{
-    font-size: 9px;
-  }
-  .tp-card-link{
-    height: 540px;
-  }
-  .booking-icons section{
-    width: 100%;
-  }
-  .booking-content{
-    margin-left:15px;
-    vertical-align: top;
-    widows: 5px;0%;
-  }
-    .booking-icons section p{
-      font-size: 15px;
-    }
-  .booking-icons section img{
-    width:110px;
-    vertical-align: top;
-  }
-  .booking-btn a {
-    padding: 10px 23px;
-    font-size: 12px;
-}
+@media only screen and (max-width : 500px) {
+  .hero-content p{font-size:15px;}
+  .hero-content a{font-size: 15px;}
+  .tp-card-link{height: 570px;}
+  .tp-card-content a{font-size:10px;}
+  .top-picks-cards section p{font-size: 15px;}
+  .top-picks-cards section h3{font-size:15px;}
+  .tp-card-link{height:561px;}
+  .booking-btn a{font-size:15px;}
+  .booking-content{margin-left: 25px;}
+  .booking-icons section img{width: 125px;}
 }
 
-@media only screen
-and (max-width : 368px) {
-  .top-picks-content h3{
-    font-size:25px;
-  }
-  .top-picks-content p{
-    font-size:13px;
-  }
-  .top-picks-cards{
-    align-items: inherit;
-  }
-  .tp-card-link{
-    height: 525px;
-  }
-  .booking-content{
-    margin-left:0;
-  }
-    .booking-icons section img{
-      width:100px;
-    }
-    .booking-icons section p {
-      font-size: 16px;
-  }
+@media only screen and (max-width : 400px) {
+  .main-image {left: -700px;}
+  .hero-content h1{font-size: 30px;}
+  .tp-card-link{height: 541px;}
+  .top-picks-cards section p{min-height: 100px;}
+  .tp-card-content h3{min-height: 75px;}
+  .top-picks-cards section a{font-size: 9px;}
+  .tp-card-link{height: 540px;}
+  .booking-icons section{width: 100%;}
+  .booking-content{margin-left:15px; vertical-align: top;}
+  .booking-icons section p{font-size: 15px;}
+  .booking-icons section img{width:110px; vertical-align: top;}
+  .booking-btn a {padding: 10px 23px; font-size: 12px;}
+}
+
+@media only screen and (max-width : 368px) {
+  .top-picks-content h3{font-size:25px;}
+  .top-picks-content p{font-size:13px;}
+  .top-picks-cards{align-items: inherit;}
+  .tp-card-link{height: 525px;}
+  .booking-content{margin-left:0;}
+  .booking-icons section img{width:100px;}
+  .booking-icons section p {font-size: 16px;}
+}
+
+@media only screen and (max-width : 320px) {
+  .hero-content a {font-size: 12px;}
+  .tp-card-content h3 {min-height: 90px;}
+  .booking-btn a {font-size: 10px;}
+  .cat-link a span {font-size: 17px;}
 }

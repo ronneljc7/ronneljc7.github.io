@@ -6,11 +6,8 @@
 
 	<title>Shoor</title>
 
-
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/media.css">
-
-
 
 </head>
 <body>
