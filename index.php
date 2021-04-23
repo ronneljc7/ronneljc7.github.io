@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
  <html class="no-js" lang="en-US">
-<head>
+ <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,7 +21,7 @@
 			<div class="hero-content">
 				<h1><span>Discover</span> new experiences.</h1>
 				<p>from the best of real-world excitement<br />to groundbreaking virtual entertainment.</p>
-				<a href="#">THIS IS HOW SHOOR WORKS <span>&#9654;</span></a>
+				<a href="#">THIS IS HOW SHOOR WORKS <span></span></a>
 			</div>
 		</div>
 		</div>
@@ -115,7 +115,7 @@
 				</section>
 			</div>
 			<div class="booking-btn">
-				<a href="#">booking is as easy as 1-2-3<span>&#9654;</span></a>
+				<a href="#">booking is as easy as 1-2-3<span></span></a>
 			</div>
 		</div>
 	</div>

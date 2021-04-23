@@ -47,8 +47,9 @@ a[href^="tel:"]{color: inherit!important; text-decoration: none;}
 .hero-content h1{font-weight: 900;	font-size: 68px;	text-transform: uppercase;	line-height: 100%;	margin-bottom: 20px;}
 .hero-content p{font-size: 30px;	margin-bottom: 50px;	text-transform: uppercase;	line-height: 100%;}
 .hero-content a{width: 200px;	color: #fff;	border: 1px solid #ffa800;	padding: 10px 40px;	font-weight: 600;}
+.hero-content a:after{content: ' \25BA';}
 .hero-content a:hover{transition: background-color 0.2s ease;	background-color: #ffa800;	color: #000;}
-.hero-content  a span{margin-left: 25px;}
+.hero-content  a span{margin-left: 15px;}
 
 /*product section*/
 .top-picks{ background-color: #111111; padding: 30px 0; text-align: center;}
@@ -80,6 +81,7 @@ a[href^="tel:"]{color: inherit!important; text-decoration: none;}
 .booking-icons section p{}
 .booking-btn{text-align: center;}
 .booking-btn a{padding: 10px 30px; border: 1px solid #ffa800;	text-transform: uppercase;	text-decoration: none;	color:#fff;	font-weight: 600;}
+.booking-btn a:after{content: ' \25BA';}
 .booking-btn a:hover{transition: background-color 0.2s ease;	background-color: #ffa800;	color: #000;}
 .booking-btn span{margin-left: 25px;}
 
