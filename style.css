@@ -41,7 +41,7 @@ a[href^="tel:"]{color: inherit!important; text-decoration: none;}
 /*hero section*/
 .wrapper{width: 100%; max-width: 1600px; position:relative;	margin: 0 auto;}
 .hero-main{position: relative;}
-.main-image img{display: block; margin:0 auto;}
+.main-image img{display: block; margin:0 auto; width:100%;}
 .hero-content {text-align: center; position: absolute; bottom: 100px;	left: 0;	right: 0;	z-index: 2;	color:#fff;}
 .hero-content h1{font-weight: 900;	font-size: 68px;	text-transform: uppercase;	line-height: 100%;	margin-bottom: 20px;}
 .hero-content p{font-size: 30px;	margin-bottom: 50px;	text-transform: uppercase;	line-height: 100%;}
